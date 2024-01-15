@@ -1,0 +1,124 @@
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+    {
+        "key": "cmd+g i",
+        "command": "git-graph.view"
+    },
+    {
+        "key": "cmd+u",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+cmd+h m",
+        "command": "gitlens.toggleFileHeatmap"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+b m",
+        "command": "workbench.view.extension.bookmarks"
+    },
+    {
+        "key": "alt+cmd+l m",
+        "command": "bookmarks.toggleLabeled"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+cmd+g g",
+        "command": "google-search.makeSearch",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "alt+cmd+g",
+        "command": "-google-search.makeSearch",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "cmd+l cmd+o",
+        "command": "-extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l cmd+c",
+        "command": "-extension.liveServer.goOffline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "codegpt.askCodeGPT"
+    },
+    {
+        "key": "cmd+g p",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+        "key": "alt+cmd+-",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "alt+cmd+=",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "h",
+        "command": "editor.action.scrollLeftHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "j",
+        "command": "editor.action.scrollDownHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "k",
+        "command": "editor.action.scrollUpHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "l",
+        "command": "editor.action.scrollRightHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "alt+cmd+v i",
+        "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    }
+]
